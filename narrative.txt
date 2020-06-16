@@ -1,0 +1,31 @@
+Welcome to our Murder Mystery. You are an inspector tasked with solving a murder that occured at a dinner
+party. You the actions you may need to take are: (examine), (move), (speak), (take), (drop), (use) and (go to).
+
+What is your name, Inspector? >_
+
+It is a dreary Friday evening in November. You're catching up on some paperwork when the phone rings...
+
+"Good evening Inspector _______, My name is Mr. Green and I'm afraid I am in need of your services. 
+I've been hosting a dinner party tonight and one of my guests has been murdered. All of the guests
+are still here and we've vowed that nobody leaves until we find the killer. Can you help us? (y/n) >_
+
+You arrive at the mansion to find that all the guests are scattered around the house. Mr. Green leads
+you into the kitchen where you find the body of Mr. Body. (can examine body, speak to Mr. Green.(triggering first dialogue), go to next room)
+
+First dialogue with Mr. Green will tell you broad strokes of what happened leading up to murder and inform you where you may find the other guests
+
+State machine will track who you have spoken to and unlock further dialogue with characters.
+
+You will need to speak to all characters before you can solve the murder.
+
+Mr. Body was actually an undercover reporter that was going to run a story about Mr. Green being in
+posession of priceless stolen artwork. Mr. Green found out about the story that Mr. Body was writing
+and set up the dinner party as a way to murder Mr. Body and give himself cover with an alabi of many witnesses
+vouching for his whereabouts when the murder happened (he has his cook commit the murder on his behalf)
+
+A key will be found that unlocks a cabinet where all the stolen artwork is being hidden, along with the murder weapon (the billiard ball).
+
+You gather all characters in one room for the big reveal of the hidden artwork and your assertion that Mr. Green
+killed Mr. Body and used the cook as his weapon. Weapon was a billiard ball taken from the billiard room. Cook never
+went to billiard room at any point of the night so cook must have gotten the ball from someone else, Mr. Green.
+
